@@ -39,7 +39,7 @@ const Links = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1Z7Qv7LBPVxFNFvYX1BDFKrlemnMh3eRV/view",
+      href: "https://drive.google.com/file/d/1SY-a_u3Vg9R2V3PQS4j3okj8cE19NmEX/view?usp=sharing",
       style: "rounded-br-md",
     },
   ];

@@ -45,25 +45,30 @@ const About = () => {
         </motion.div>
 
         <motion.p className="text-xl mt-14" variants={variants}>
-          Hello. I'm Jaswanth Reddy Gillella. I am currently pursing a Master of
-          Computer Science Degree at the University of Central Missouri, where I
-          am honing my skills and broadening my knowledge. I have 3 years of
-          experience building and desgining software. My technical expertise
-          includes working with technologies like React, Tailwind, Node JS and
-          MongoDB.
+          Hello. I'm Jaswanth Reddy Gillella. I am a Graduate Student with
+          degree in Master of Computer Science from University of Central
+          Missouri, where I honed my skills and broadened my knowledge. I have 3
+          years of experience building and desgining software. My technical
+          expertise includes working with technologies like React, Tailwind,
+          Node JS and MongoDB.
         </motion.p>
 
         <br />
 
         <motion.p className="text-xl" variants={variants}>
           I worked as a React Developer at Hexagon CCI. In this position, I
-          redefined my problem-solving ablities through promptly identifying and
-          fixing bugs. I optimized the overall responsiveness and loading times
-          of the application by incorporating advanced performance optimization
-          techniques. Along with this I am fluent with classics like C++, Python
-          and JavaScript. Whenever possible, I also apply my passion for
-          developing products with Node.js and Modern Javascript Library and
-          Frameworks like React.js and Next.js
+          Developed and integrated a dynamic feature allowing users to
+          personalize their dashboards through an intuitive drag-and-drop
+          interface for various components. I also worked on a feature enabling
+          specific actions to be triggered by custom key combinations, enhancing
+          accessibility and user experience. I redefined my problem-solving
+          ablities through promptly identifying and fixing bugs. I optimized the
+          overall responsiveness and loading times of the application by
+          incorporating advanced performance optimization techniques. Along with
+          this I am fluent with classics like C++, Python and JavaScript.
+          Whenever possible, I also apply my passion for developing products
+          with Node.js and Modern Javascript Library and Frameworks like
+          React.js and Next.js
         </motion.p>
       </motion.div>
     </div>
