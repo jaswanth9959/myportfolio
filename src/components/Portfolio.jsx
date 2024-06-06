@@ -1,8 +1,9 @@
 import collabcube from "../assets/proj1.jpg";
-import easystay from "../assets/easystay.png";
+import ezStay from "../assets/ez-stay.png";
 import usepop from "../assets/usepopcorn.png";
 import quiz from "../assets/quiz.png";
 import proshop from "../assets/proshop.png";
+import ShoeStore from "../assets/shoestore.png";
 import { useRef } from "react";
 import { VscPreview } from "react-icons/vsc";
 import { FaGithub } from "react-icons/fa";
@@ -33,6 +34,13 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: ShoeStore,
+      title: "E-Commerce Application",
+      demo: "https://shoestore-ojh7.onrender.com/",
+      git: "https://github.com/jaswanth9959/CollabCube",
+    },
+    {
+      id: 31,
       src: collabcube,
       title: "collabcube",
       demo: "",
@@ -40,9 +48,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: easystay,
-      title: "EasyStay",
-      demo: "",
+      src: ezStay,
+      title: "EZ-Stay",
+      demo: "https://hotel-2n0j.onrender.com/",
       git: "https://github.com/jaswanth9959/easy-stay",
     },
     {
@@ -56,7 +64,7 @@ const Portfolio = () => {
       id: 4,
       src: quiz,
       title: "Quizz App",
-      demo: "",
+      demo: "https://react-quiz-m91v.onrender.com/",
       git: "https://github.com/jaswanth9959/react-quiz",
     },
     // {
@@ -70,7 +78,7 @@ const Portfolio = () => {
       id: 6,
       title: "Moviez",
       src: usepop,
-      demo: "",
+      demo: "https://moviezapp.onrender.com/",
       git: "https://github.com/jaswanth9959/Movies",
     },
   ];
@@ -109,7 +117,8 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 h-auto w-full "
+                className="rounded-md duration-200 w-full "
+                style={{ height: "250px" }}
               />
               <h4 className="text-white text-xl pt-2 flex items-center justify-center">
                 {title}
